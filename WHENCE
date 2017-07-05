@@ -422,9 +422,9 @@ Version: 3.03.28 IPX
 File: ql2322_fw.bin
 Version: 3.03.28 IPX
 File: ql2400_fw.bin
-Version: 8.06.00 MID
+Version: 8.07.00 MID
 File: ql2500_fw.bin
-Version: 8.06.00 MIDQ
+Version: 8.07.00 MIDQ
 
 Licence: Redistributable. See LICENCE.qla2xxx for details
 
@@ -569,14 +569,14 @@ Driver: cxgb4 - Chelsio Terminator 4/5/6 1/10/25/40/100G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.16.33.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.16.33.0.bin
+File: cxgb4/t4fw-1.16.45.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.16.45.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.16.33.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.16.33.0.bin
-File: cxgb4/t6fw-1.16.33.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.16.33.0.bin
+File: cxgb4/t5fw-1.16.45.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.16.45.0.bin
+File: cxgb4/t6fw-1.16.45.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.16.45.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 
@@ -751,7 +751,7 @@ File: mrvl/pcie8897_uapsta.bin
 Version: 15.68.7.p77
 
 File: mrvl/sd8887_uapsta.bin
-Version: 15.68.7.p5
+Version: 15.68.7.p112
 
 File: mrvl/sd8801_uapsta.bin
 Version: 14.68.36.p60
@@ -767,6 +767,9 @@ Version: 16.68.1.p97
 
 File: mrvl/pcie8997_wlan_v4.bin
 Version: 16.68.1.p97
+
+File: mrvl/usbusb8997_combo_v4.bin
+Version: 16.68.1.p113
 
 Licence: Redistributable. See LICENCE.Marvell for details.  Originates from
 http://git.marvell.com/?p=mwifiex-firmware.git
@@ -927,16 +930,22 @@ File: iwlwifi-7265D-22.ucode
 Version 22.391740.0
 
 File: iwlwifi-7265D-27.ucode
-Version 27.455470.0
+Version 27.541033.0
+
+File: iwlwifi-7265D-29.ucode
+Version 29.541020.0
 
 File: iwlwifi-3168-21.ucode
 Version 21.302800.0
 
 File: iwlwifi-3168-22.ucode
-Version 22.361476.0
+Version 22.391740.0
 
 File: iwlwifi-3168-27.ucode
-Version 27.455470.0
+Version 27.541033.0
+
+File: iwlwifi-3168-29.ucode
+Version 29.541020.0
 
 File: iwlwifi-8000C-13.ucode
 Version: 25.30.13.0
@@ -951,7 +960,10 @@ File: iwlwifi-8000C-22.ucode
 Version 22.391740.0
 
 File: iwlwifi-8000C-27.ucode
-Version 27.455470.0
+Version 27.541033.0
+
+File: iwlwifi-8000C-31.ucode
+Version 31.532993.0
 
 File: iwlwifi-8265-21.ucode
 Version 21.302800.0
@@ -960,7 +972,10 @@ File: iwlwifi-8265-22.ucode
 Version 22.391740.0
 
 File: iwlwifi-8265-27.ucode
-Version 27.455470.0
+Version 27.541033.0
+
+File iwlwifi-8265-31.ucode
+Version 31.532993.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -2636,7 +2651,7 @@ File: ath10k/QCA988X/hw2.0/firmware-4.bin
 Version: 10.2.4.45
 Licence: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-4.txt
 File: ath10k/QCA988X/hw2.0/firmware-5.bin
-Version: 10.2.4.70.54
+Version: 10.2.4.70.63-2
 Licence: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA6174/hw2.1/board.bin
 File: ath10k/QCA6174/hw2.1/board-2.bin
@@ -2648,6 +2663,9 @@ File: ath10k/QCA6174/hw3.0/board-2.bin
 File: ath10k/QCA6174/hw3.0/firmware-4.bin
 Version: WLAN.RM.2.0-00180-QCARMSWPZ-1
 Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-4.txt
+File: ath10k/QCA6174/hw3.0/firmware-6.bin
+Version: WLAN.RM.4.4-00022-QCARMSWPZ-2
+Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-6.txt
 File: ath10k/QCA9377/hw1.0/board.bin
 File: ath10k/QCA9377/hw1.0/board-2.bin
 File: ath10k/QCA9377/hw1.0/firmware-5.bin
@@ -2659,19 +2677,19 @@ Version: 10.4.1.00030-1
 Licence: ath10k/QCA99X0/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA4019/hw1.0/board-2.bin
 File: ath10k/QCA4019/hw1.0/firmware-5.bin
-Version: 10.4-3.2.1-00028
+Version: 10.4-3.4-00082
 Licence: ath10k/QCA4019/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9887/hw1.0/board.bin
 File: ath10k/QCA9887/hw1.0/firmware-5.bin
-Version: 10.2.4-1.0-00013
+Version: 10.2.4-1.0-00029
 Licence: ath10k/QCA9887/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9888/hw2.0/board-2.bin
 File: ath10k/QCA9888/hw2.0/firmware-5.bin
-Version: 10.4-3.2-00072
+Version: 10.4-3.5.1-00014
 Licence: ath10k/QCA9888/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9984/hw1.0/board-2.bin
 File: ath10k/QCA9984/hw1.0/firmware-5.bin
-Version: 10.4-3.2-00072
+Version: 10.4-3.4-00082
 Licence: ath10k/QCA9984/hw1.0/notice_ath10k_firmware-5.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
@@ -2856,7 +2874,8 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 Found in vendor driver, linux_bt_usb_2.11.20140423_8723be.rar
 From https://github.com/troy-tan/driver_store
-Files rtl_bt/rtl8822b_* came directly from Realtek.
+Files rtl_bt/rtl8822b_* came directly from Realtek. These files are
+updated on April 14, 2017.
 
 --------------------------------------------------------------------------
 
@@ -3029,6 +3048,9 @@ Driver: rsi -- Redpine Signals Inc 91x driver
 
 File: rsi_91x.fw
 
+File: rsi/rs9113_wlan_qspi.rps
+Version: 1.5.3
+
 Licence:
  * Firmware is:
  *	Derived from proprietary unpublished source code,
@@ -3143,7 +3165,9 @@ File: intel/dsp_fw_kbl_v701.bin
 Version: 9.21.00.701
 File: intel/dsp_fw_kbl_v1037.bin
 Version: 09.21.00.1037
-Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v1037.bin
+File: intel/dsp_fw_kbl_v2042.bin
+Version: 9.21.00.2042_46
+Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v2042.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3187,6 +3211,16 @@ Licence: Redistributable. See LICENCE.nvidia for details
 
 --------------------------------------------------------------------------
 
+Driver: tegra-vic -- NVIDIA Tegra VIC driver
+
+File: nvidia/tegra124/vic03_ucode.bin
+File: nvidia/tegra210/vic04_ucode.bin
+File: nvidia/tegra186/vic04_ucode.bin
+
+Licence: Redistributable. See LICENCE.nvidia for details
+
+--------------------------------------------------------------------------
+
 Driver: atusb - ATUSB IEEE 802.15.4 transceiver driver
 
 File: atusb/atusb-0.2.dfu
@@ -3223,16 +3257,16 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 Driver: liquidio -- Cavium LiquidIO driver
 
 File: liquidio/lio_23xx_nic.bin
-Version: v1.4.2
+Version: v1.6.0
 
 File: liquidio/lio_210nv_nic.bin
-Version: v1.4.2
+Version: v1.6.0
 
 File: liquidio/lio_210sv_nic.bin
-Version: v1.4.2
+Version: v1.6.0
 
 File: liquidio/lio_410nv_nic.bin
-Version: v1.4.2
+Version: v1.6.0
 
 Licence: Redistributable. See LICENCE.cavium for details
 
@@ -3475,6 +3509,7 @@ Driver: wilc1000 - Atmel 802.11n WLAN driver for WILC1000
 File: atmel/wilc1000_fw.bin
 File: atmel/wilc1000_ap_fw.bin
 File: atmel/wilc1000_p2p_fw.bin
+File: atmel/wilc1000_wifi_firmware.bin
 
 License: Redistributable. See LICENSE.atmel for details
 
@@ -3483,14 +3518,13 @@ License: Redistributable. See LICENSE.atmel for details
 Driver: hfi1 - Intel OPA Gen 1 adapter
 
 File: hfi1_dc8051.fw
-Version: 0.47
+Version: 1.18
 File: hfi1_fabric.fw
 Version: 0x1055
 File: hfi1_pcie.fw
 Version: 0x4755
 File: hfi1_sbus.fw
 Version: 0x10130001
-File: hfi1_platform.dat
 
 Licence: Redistributable. See LICENSE.hfi1_firmware for details
 
@@ -3570,3 +3604,42 @@ File: netronome/nic_AMDA0097-0001_8x10.nffw
 Version: v0.6.1
 
 Licence: Redistributable. See LICENCE.Netronome for details
+
+--------------------------------------------------------------------------
+
+Driver: wil6210 - Qualcomm Atheros support for 11ad family of chips
+
+File: wil6210.fw
+File: wil6210.brd
+Version: 4.1.0.55
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
+
+--------------------------------------------------------------------------
+
+Driver: venus - Qualcomm Venus video codec accelerator
+
+File: qcom/venus-1.8/venus.mdt
+File: qcom/venus-1.8/venus.b00
+File: qcom/venus-1.8/venus.b01
+File: qcom/venus-1.8/venus.b02
+File: qcom/venus-1.8/venus.b03
+File: qcom/venus-1.8/venus.b04
+
+Version: 1.8-00109
+
+Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
+
+Binary files supplied originally from
+https://developer.qualcomm.com/hardware/dragonboard-410c/tools
+
+--------------------------------------------------------------------------
+
+Driver: imx-sdma - support for i.MX SDMA driver
+
+File: imx/sdma/sdma-imx6q.bin
+Version: 3.3
+File: imx/sdma/sdma-imx7d.bin
+Version: 4.2
+
+Licence: Redistributable. See LICENSE.sdma_firmware for details
